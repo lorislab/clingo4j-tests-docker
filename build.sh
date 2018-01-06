@@ -1,1 +1,1 @@
-docker build -t lorislab/clingo4j-tests .
+docker build -t lorislab/clingo4j-tests-centos7 .
