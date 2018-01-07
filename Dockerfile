@@ -1,4 +1,4 @@
-FROM centos/devtoolset-6-toolchain-centos7
+FROM centos:7
 
 USER root
 RUN yum -y install java-1.8.0-openjdk-devel maven git && yum clean all
